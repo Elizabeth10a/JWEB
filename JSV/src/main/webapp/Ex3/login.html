@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+</head>
+<body>
+<link rel="stylesheet" href="./CSS/pageCss.css">
+<div>
+    <h2>登录界面</h2>
+</div>
+<form action="/JSV/postHeader" method="post">
+    <input type="text" placeholder="请输入用户名" name="username"><br>
+    <input type="text" placeholder="请输入密码" name="password"><br>
+    <br>
+    <input type="submit" value="注册">
+    <input type="submit" value="登录">
+
+</form>
+<form action="/JSV/postHeader" method="post">
+    <h2>注册界面</h2>
+
+    <input type="text" placeholder="请输入用户名" name="username"><br>
+    <input type="text" placeholder="请输入密码" name="password"><br>
+    <input type="text" placeholder="请再次输入密码" name="password"><br>
+    <br>
+    <input type="submit" value="点击注册">
+    <input type="submit" value="取消">
+
+</form>
+
+<div>
+    <h2>当前用户为普通用户</h2>
+    <h5> 仅可以查看农机信息 </h5>
+
+    <a href="login.html">
+        <button type="submit">点击查看农机信息</button>
+        <button type="submit">点击修改密码</button>
+    </a>
+
+
+</div>
+<div>
+    <h2>当前用户为管理员</h2>
+    <div>
+        <button type="submit">修改密码</button>
+
+    </div>
+    <br>
+    <div>
+        <button type="submit">添加用户信息</button>
+        <button type="submit">删除用户信息</button>
+        <button type="submit">查看用户信息</button>
+    </div>
+    <br>
+    <div>
+        <button type="submit">添加产品信息</button>
+        <button type="submit">查看农机信息</button>
+
+    </div>
+    <br>
+
+
+</div>
+
+<div>
+    <h2 align="center">查看产品信息</h2>
+    <table border="1" width='50%' align="center">
+        <!-- 在table中使用tr表示表格中的一行，有几个tr就有几行 -->
+        <tr>
+            <!-- 在tr中使用td表示一个单元格，有几个td就有几个单元格 -->
+
+
+        </tr>
+        <tr>
+            <!-- 在tr中使用td表示一个单元格，有几个td就有几个单元格 -->
+            <td>产品编号</td>
+            <td>产品名称</td>
+            <td>产品类型</td>
+            <td>产品价格</td>
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td>收割机</td>
+            <td>21</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+            <td>AP</td>
+            <td>31</td>
+            <td>31</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>sassas1</td>
+            <td>21</td>
+            <td>21</td>
+        </tr>
+
+    </table>
+</div>
+<div>
+    <h2 align="center">添加产品信息</h2>
+    <table border="3" align="center">
+
+        <tr>
+            <td>产品编号</td>
+            <td>产品名称</td>
+
+        <tr>
+
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+
+
+        </tr>
+        <tr>
+            <td>产品类型</td>
+            <td>产品价格</td>
+
+
+        </tr>
+
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button>点击添加</button>
+            </td>
+        </tr>
+
+
+    </table>
+</div>
+<div>
+    <h2 align="center">删除用户信息</h2>
+    <table border="1" width='50%' align="center">
+        <!-- 在table中使用tr表示表格中的一行，有几个tr就有几行 -->
+        <tr>
+            <!-- 在tr中使用td表示一个单元格，有几个td就有几个单元格 -->
+            <td colspan="2"><input type="text" placeholder="请输入用户名"></td>
+            <td>
+                <button>点击删除</button>
+            </td>
+
+        </tr>
+
+
+    </table>
+</div>
+
+
+<div>
+    <h2 align="center">查看用户信息</h2>
+    <table border="1" width='50%' align="center">
+        <!-- 在table中使用tr表示表格中的一行，有几个tr就有几行 -->
+        <tr>
+            <!-- 在tr中使用td表示一个单元格，有几个td就有几个单元格 -->
+            <td colspan="2"><input type="text" placeholder="请输入用户名"></td>
+            <td>
+                <button>点击查看</button>
+            </td>
+
+        </tr>
+        <tr>
+            <!-- 在tr中使用td表示一个单元格，有几个td就有几个单元格 -->
+            <td>用户</td>
+            <td>密码</td>
+        </tr>
+        <tr>
+            <!-- 在tr中使用td表示一个单元格，有几个td就有几个单元格 -->
+            <td>A1</td>
+            <td>sassas1</td>
+        </tr>
+
+    </table>
+</div>
+<br>
+
+</body>
+</html>
